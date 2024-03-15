@@ -7,9 +7,9 @@ import Card from './card/Card';
 const FirstScetion = () => {
   return (
     <div>
-    <div className='grid sm:grid-cols-1  md:grid-cols-1 lg:grid-cols-2  xl:grid-cols-2 items-center p-8'>
+    <div className='grid sm:grid-cols-1  md:grid-cols-1 lg:grid-cols-2  xl:grid-cols-2 items-center'>
    
-      <div className=' m-28 space-y-10'>
+      <div className=' xl:m-28 m-2 space-y-10'>
 <h1 className='text-6xl font-bold'>
 Testing Apps with TestFlight
 </h1>
@@ -18,7 +18,7 @@ Testing Apps with TestFlight
 Help developers test beta versions of their apps and App Clips using the TestFlight app. Download TestFlight on the App Store for iPhone, iPad, Mac, Apple TV, Apple Vision Pro, Watch, and iMessage.
 </p>
       </div>
-      <div className=' m-28'>
+      <div className=' xl:m-28 m-2'>
       <Image className='rounded-xl'
         src="/Test1.png"
         alt="Optimized Image"
@@ -37,9 +37,9 @@ To test beta versions of apps and App Clips using TestFlight, you’ll need to a
 If you’re a member of the developer’s team, the developer can give you access to all builds or certain builds
 </p>
 </div>
-<div className='grid sm:grid-cols-1  md:grid-cols-1 lg:grid-cols-2  xl:grid-cols-2 items-center p-8'>
+<div className='grid sm:grid-cols-1  md:grid-cols-1 lg:grid-cols-2  xl:grid-cols-2 items-center '>
     
-      <div className=' m-28 space-y-4'>
+      <div className=' xl:m-28 m-4 space-y-4'>
       <Image className='rounded-xl'
         src="/cross-platform.png"
         alt="Optimized Image"
@@ -48,7 +48,7 @@ If you’re a member of the developer’s team, the developer can give you acces
       />
    <h1 className='text-3xl font-semibold'>Required platforms</h1>
    
-   <ul className='list-disc text-lg'>
+   <ul className='list-disc text-lg p-2'>
   <li>
     iOS or iPadOS apps: iPhone, iPad, or iPod touch running iOS 14 or iPadOS 14 or later. App Clips require iOS 14 or iPadOS 14, or later.
   </li>
@@ -68,7 +68,7 @@ If you’re a member of the developer’s team, the developer can give you acces
    
  
       </div>
-      <div className=' m-28 space-y-4'>
+      <div className=' xl:m-28 m-4 space-y-4'>
       <Image className='rounded-xl'
         src="/translator.png"
         alt="Optimized Image"
@@ -96,7 +96,7 @@ Note: Managed Apple IDs can't be used to test builds.
 </div>
     </div>
     <div className='bg-white grid sm:grid-cols-1  md:grid-cols-1 lg:grid-cols-2  xl:grid-cols-2  '>
-      <div className='p-4'>
+    <div className='xl:p-4 p-2 '>
       <Card className='card  bg-grey text-white space-y-2'>
       <Image className='rounded-xl place-items-center'
         src="/ipad.jpg"
@@ -125,7 +125,7 @@ Note: Managed Apple IDs can't be used to test builds.
 
       </div>
 
-      <div className='p-4'>
+      <div className='xl:p-4 p-2 '>
       <Card className='card  bg-grey text-white space-y-2'>
       <Image className='rounded-xl place-items-center'
         src="/mac.jpg"
@@ -152,7 +152,7 @@ Note: Managed Apple IDs can't be used to test builds.
        </Card>
 
       </div>
-      <div className='p-4'>
+      <div className='xl:p-4 p-2 '>
       <Card className='card  bg-grey text-white space-y-2'>
       <Image className='rounded-xl place-items-center'
         src="/tv.jpg"
@@ -177,7 +177,7 @@ Note: Managed Apple IDs can't be used to test builds.
        </Card>
 
       </div>
-      <div className='p-4'>
+      <div className='xl:p-4 p-2 '>
       <Card className='card  bg-grey text-white space-y-2'>
       <Image className='rounded-xl place-items-center'
         src="/watch.jpg"
